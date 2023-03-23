@@ -1,0 +1,55 @@
+/*. Una buena práctica es tener las propiedades
+ordenadas por alfabeto, no las clases, LAS PROPIEDADES.*/
+
+html,
+body{
+    background: #d5e1ef;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0%;
+/*. Que tan separada esta tu cama de la pared.*/
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+/*. Que tan separada esta tu casa de las demas casas.*/
+}
+
+.card-container {
+    background: white;
+     /*. primero es X, Y, que tanto se esparce y luego la opacidad .*/
+    box-shadow: 0px 5px 20px rgb(0, 0, 0, .5);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 20px;
+    /*.  .*/
+    overflow: hidden;
+}
+
+.card-container .qr-container {
+    background: #2f7dfa;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.card-container .qr-container img {
+    max-width: 100%;
+}
+
+ /*. Se importa el url del font en el HTML en <head> .*/
+
+ /*. Para aplicarlo al texto se utiliza 'font-family' .*/
+
+.card-container h1 {
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+    font-weight: 900;
+}
+
+
+.card-container p {
+    color: #c3c3cb;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+}
